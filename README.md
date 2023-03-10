@@ -4,7 +4,7 @@ description: Qu'est ce que la POO ?
 
 # Présentation
 
-La POO est une approche de programmation différente. Elle rapproche la programmation et notre manière de percevoir le monde réel.
+La POO est une approche de programmation différente. Elle rapproche la programmation avec notre manière de percevoir le monde réel.
 
 ## Pourquoi apprendre la POO ?
 
