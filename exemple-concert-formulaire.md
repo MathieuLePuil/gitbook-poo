@@ -6,7 +6,7 @@ L'idée ici est de créer une classe permettant de créer un formulaire comme ce
 ```php
 <?php
 
-require 'form.php';
+require 'Form.php';
 
 $form = new Form();
 echo $form->input('username');
@@ -101,7 +101,7 @@ public function input($name){
 {% code title="index.php" %}
 ```php
 <?php
-    require 'form.php';
+    require 'Form.php';
     $form = new Form($_POST);
 ?>
 

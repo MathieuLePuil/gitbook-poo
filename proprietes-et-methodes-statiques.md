@@ -24,7 +24,7 @@ Nous pouvons maintenant appelé plus facilement la fonction car elle est statiqu
 ```php
 <?php
 
-require 'text.php';
+require 'Text.php';
 
 $withZero = Text::withZero(4);
 var_dump($withZero);
