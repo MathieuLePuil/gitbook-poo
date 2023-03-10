@@ -10,3 +10,4 @@
 * [Propriétés et méthodes statiques](proprietes-et-methodes-statiques.md)
 * [L'héritage](lheritage.md)
 * [Exemple d'héritage](exemple-dheritage.md)
+* [L'autoloading](lautoloading.md)

@@ -11,7 +11,7 @@ Un objet peut être un type de variables :&#x20;
 
 ### Exemple : Les dates
 
-Ajouter 3 mois à une date et l'afficher dans un autre format ?&#x20;
+Ajouter 3 mois à une date et l'afficher dans un autre format.
 
 ```php
 date_default_timezone_set('Europe/Paris')
@@ -82,4 +82,4 @@ $date->addDays(2)
 $date->format('d/m/Y')
 ```
 
-Les méthodes sont comme les fonctions sauf qu'elle s'applique directement sur un objet, donc un instance.
+Les méthodes sont comme les fonctions sauf qu'elle s'applique directement sur un objet, donc une instance.

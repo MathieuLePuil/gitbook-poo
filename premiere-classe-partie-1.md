@@ -22,7 +22,7 @@ require 'Personnage.php';
 ```
 {% endcode %}
 
-Ajoutons maintenant un nouveau personnage nommé _Merlin_ et affichons le dans la console :&#x20;
+Ajoutons maintenant un nouveau personnage nommé _Merlin_ et affichons-le dans la console :&#x20;
 
 {% code title="index.php" %}
 ```php
