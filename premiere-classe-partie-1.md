@@ -6,6 +6,8 @@ Créons tout d'abord notre fichier `index.php`. Pour de meilleures pratiques, no
 
 {% code title="personnage.php" %}
 ```php
+<?php
+
 class Personnage {}
 ```
 {% endcode %}

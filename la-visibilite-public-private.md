@@ -10,6 +10,8 @@ Pour afficher tout de même une information qui est privé, nous pouvons utilise
 
 {% code title="Personnage.php" %}
 ```php
+<?php
+
 class Personnage {
     private $nom;
     

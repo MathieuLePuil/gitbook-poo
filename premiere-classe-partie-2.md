@@ -22,6 +22,8 @@ var_dump($harry);
 
 {% code title="Personnage.php" %}
 ```php
+<?php
+
 class Personnage {
     public $vie = 80;
     public $attaque = 20;
