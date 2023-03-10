@@ -8,3 +8,4 @@
 * [Exemple concert : formulaire](exemple-concert-formulaire.md)
 * [Bien documenter ses classes](bien-documenter-ses-classes.md)
 * [Propriétés et méthodes statiques](proprietes-et-methodes-statiques.md)
+* [L'héritage](lheritage.md)
