@@ -13,7 +13,7 @@ Un objet peut être un type de variables :&#x20;
 
 Ajouter 3 mois à une date et l'afficher dans un autre format ?&#x20;
 
-```
+```php
 date_default_timezone_set('Europe/Paris')
 
 $date = '2023-03-10';
@@ -24,7 +24,7 @@ echo date('d/m/Y', strtotime($new_date)); // 12/06/2023
 
 Ce code est difficile à comprendre. Mais nous pouvons l'améliorer grâce à des fonctions.
 
-```
+```php
 $date = '2023-03-10';
 
 $date = add_days($date, 2);
@@ -37,7 +37,7 @@ echo format_date($date, 'd/m/Y'); // 12/06/2023
 
 Maintenant, nous allons refaire le même code que ci-dessus mais avec des objets.
 
-```
+```php
 $date = new MaDate('2023-03-10');
 
 $date->addDays(2);
@@ -52,7 +52,7 @@ Nous pouvons à cette date, faire des modification, actions particulières. Ici,
 
 ### Instanciation
 
-```
+```php
 $date1 = new MaDate('2023-03-10');
 $date2 = new MaDate();
 ```
@@ -67,7 +67,7 @@ Ici, `$date1` et `$date2` sont deux instances (deux variables du même type : `M
 
 Sur nos objets, nous allons avoir des propriétés :&#x20;
 
-```
+```php
 $date->days
 $date->months
 $date->years
@@ -75,7 +75,7 @@ $date->years
 
 Nous allons pouvoir ensuite appliquer des méthodes :&#x20;
 
-```
+```php
 $date->days()
 $date->months()
 $date->addDays(2)
