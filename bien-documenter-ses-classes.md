@@ -4,7 +4,7 @@ Lorsque l'on utilise un IDE, nous avons une auto-complétion du code. Si les cla
 
 Ce que l'on peut faire, c'est mettre des documentations dans le code. C'est ce qu'on appelle PHPdoc. Voyons par exemple comment documenter notre classe `Form`.
 
-{% code title="form.php" %}
+{% code title="Form.php" %}
 ```php
 /**
 * Class Form
@@ -19,7 +19,7 @@ class Form{
 
 Nous pouvons également documenter nos variables en mettant `@var` et le type de variable :&#x20;
 
-{% code title="form.php" %}
+{% code title="Form.php" %}
 ```php
 class Form{
     /**
@@ -38,7 +38,7 @@ class Form{
 
 Il nous reste plus qu'a documenter nos fonctions en utilisant @param pour chaque paramètre de celle-ci et @return si la fonction renvoie une information :&#x20;
 
-{% code title="form.php" %}
+{% code title="Form.php" %}
 ```php
 class Form{
     ...

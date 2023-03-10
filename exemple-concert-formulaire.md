@@ -28,11 +28,11 @@ echo $form->submit();
 ```
 {% endcode %}
 
-Comme nous l'avons dit précédemment, séparons nos classes dans différents fichiers. Créons donc le fichier `form.php`.
+Comme nous l'avons dit précédemment, séparons nos classes dans différents fichiers. Créons donc le fichier `Form.php`.
 
 Ajoutons la fonction et son constructeur :&#x20;
 
-{% code title="form.php" %}
+{% code title="Form.php" %}
 ```php
 <?php
 
@@ -48,7 +48,7 @@ class Form{
 
 Nous avons besoin maintenant des fonctions `input` et `submit` pour notre formulaire. Nous les ajouterons comme ceci dans la classe `Form`.
 
-{% code title="form.php" %}
+{% code title="Form.php" %}
 ```php
 public function input($name){
     echo '<input type="text" name="' . $name . '">';
@@ -62,7 +62,7 @@ public function submit(){
 
 Pour améliorer le html, nous allons ajouter des paragraphes autour du `input` et du `submit`. Pour cela, nous allons créer une nouvelle fonction private.
 
-{% code title="form.php" %}
+{% code title="Form.php" %}
 ```php
 public $surrond = 'p';
 
@@ -82,7 +82,7 @@ public function submit(){
 
 Le formulaire fonctionne mais dans le `input` de username, aucune valeur n'est rentré par défaut alors que nous le souhaitons. Pour cela, nous allons créer un nouvelle fonction privé qui permet de récupérer la valeur par défaut de la classe `Form`.
 
-{% code title="form.php" %}
+{% code title="Form.php" %}
 ```php
 private function getValue($index){
     return isset($this->data[$index])  ? $this->data[$index] : null;
