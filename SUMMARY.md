@@ -11,3 +11,4 @@
 * [L'héritage](lheritage.md)
 * [Exemple d'héritage](exemple-dheritage.md)
 * [L'autoloading](lautoloading.md)
+* [Les namespaces](les-namespaces.md)

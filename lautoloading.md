@@ -12,7 +12,7 @@ spl_autoload_register('mon_auto_loader');
 ```
 {% endcode %}
 
-{% code title="AutoLoader.php" %}
+{% code title="Autoloader.php" %}
 ```php
 <?php
 
@@ -35,7 +35,7 @@ spl_autoload_register(array('AutoLoader', 'autoload')); // = AutoLoader::autoloa
 
 Nous pouvons encore réduire le nombre de ligne du `index.php` en mettant notre autoloader dans une fonction de notre classe.
 
-{% code title="AutoLoader.php" %}
+{% code title="Autoloader.php" %}
 ```php
 class AutoLoader {
     static function register(){
